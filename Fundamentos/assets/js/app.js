@@ -17,6 +17,7 @@ ES6 soportado por navegadores modernos
 
 Polyfill  --- Rellena una funcion que falta para que ese navegador soporte la función*/
 
+alert ('Oi, Voce é um gato!');
 let a = 10 ,
     b = 10 ,
     c = ' ZOE ' ,
@@ -35,5 +36,9 @@ let a = 10 ,
 // console.table({ a, b, c, d, y });
 
 
-// DEPURACION Y BREAKPOINTS
+// DEPURACION 
+//  BREAKPOINTS -- > Detener la ejecución del código en un punto específico para inspeccionar variables y el flujo de ejecución.
 
+c = 'Hola de nuevo';
+
+var miNombre = 'Aria'; //Objeto global var
